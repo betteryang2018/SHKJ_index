@@ -98,11 +98,11 @@ h3,.h3{
 	width:73%;
 }
 
- .navbar-brand>img {
-    width: 100%;
-    position: relative;
-    top:-5px;
- } 
+.navbar-brand>img {
+    width: auto;
+    height: 150%;
+    margin-top: -2%;
+}
 
  .navbar-toggle {
     position: relative;
