@@ -95,11 +95,10 @@ h3,.h3{
 }
 
 .navbar-brand{
-	width:73%;
+	width:70%;
 }
 
 .navbar-brand>img {
-    width: auto;
     height: 150%;
     margin-top: -2%;
 }
