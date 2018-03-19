@@ -95,12 +95,12 @@ h3,.h3{
 }
 
 .navbar-brand{
-	width:70%;
-	padding:3%;
+	width:73%;
 }
 
 .navbar-brand>img {
-	height: 100%;
+	width: 100%;
+	margin-top:-2%;
 }
 
  .navbar-toggle {
