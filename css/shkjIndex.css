@@ -75,6 +75,7 @@ h3,.h3{
 /* ------------------header-----------------*/
 .header .container{
 	padding:0 3%;
+	z-index: 99;
 }
 
 .nav-pills>li+li {
