@@ -153,7 +153,7 @@ h3,.h3{
 	margin:2%;
 }
 
-.navbar-lang span{
+.navbar-lang a{
 	display: inline-block;
 	width:37px;
 	height: 25px;
@@ -162,6 +162,8 @@ h3,.h3{
 	line-height: 25px;
 	text-align: center;
 	margin-right: -3px;
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .navbar-lang .active{

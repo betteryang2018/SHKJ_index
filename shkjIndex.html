@@ -46,8 +46,8 @@
 						<span>0755-29680666</span>
 					</p>
 					<div class="navbar-lang">
-						<span class="active lfBtn">CH</span>
-						<span class="rtBtn">EN</span>
+						<a href="javascript:;" class="active lfBtn lanBnt">CH</a>
+						<a href="javascript:;" class="rtBtn lanBnt">EN</a>
 					</div>
 				</div>
 			</div>
@@ -331,6 +331,12 @@ $(document).ready(function(){
 	$('#returnTop').click(function(){
 		$('body').animate({scrollTop:0});
 	})
+
+	// navbar-lang切换
+	$('.lanBnt').click(function(){
+		$('.lanBnt').not(this).removeClass('active');
+		$(this).addClass('active');
+	})
 });
 </script>
 
@@ -339,9 +345,9 @@ $(document).ready(function(){
     sr.reveal( '.foo1', { reset: false,scale:1,distance: '100px',delay: 200,duration : 1000,easing:'ease-out'} );
     sr.reveal( '.foo2', {reset: false,scale:1,distance: '100px',delay: 400,duration : 1000,easing:'ease-out'} );
     sr.reveal( '.foo3', {reset: false,scale:1,distance: '100px',delay: 600,duration : 1000,easing:'ease-out'} );
-    sr.reveal( '.foo4', { reset: false,origin  : 'left',distance: '150px',duration : 1000,delay: 400,easing:'ease-in-out'} );
-    sr.reveal( '.foo5', {reset: false, origin  : 'right',distance: '150px',duration : 1000,delay: 400,easing:'ease-in-out'} );
-    sr.reveal( '.foo6', { reset: false,origin  : 'left',distance: '120px',duration : 800,easing:'ease-in-out'} );
+    sr.reveal( '.foo4', { reset: false,origin  : 'left',distance: '150px',duration : 1000,delay:100,easing:'ease-in-out'} );
+    sr.reveal( '.foo5', {reset: false, origin  : 'right',distance: '150px',duration : 1000,delay:100,easing:'ease-in-out'} );
+    sr.reveal( '.foo6', { reset: false,origin  : 'left',distance: '150px',duration : 800,easing:'ease-in-out'} );
 </script>
 </body>
 </html>	</div>
