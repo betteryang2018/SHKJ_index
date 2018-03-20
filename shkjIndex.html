@@ -137,9 +137,9 @@
 		<div class="about">
 			<div class="tabbale container topTit ">
 				<ul class="nav nav-tabs row">
-					<li class="active col-md-4 col-sm-4 col-xs-4 t1"><a href="#tab1" data-toggle="tab">香薰加湿机</a></li>
-					<li class="col-md-4 col-sm-4 col-xs-4 t2"><a href="#tab2" data-toggle="tab">盐灯</a></li>
-					<li class="col-md-4 col-sm-4 col-xs-4 t3"><a href="##">查看全部</a></li>
+					<li class="active col-md-4 col-sm-4 col-xs-4 t1"><a href="#tab1" class="foo6" data-toggle="tab">香薰加湿机</a></li>
+					<li class="col-md-4 col-sm-4 col-xs-4 t2"><a href="#tab2" class="foo6" data-toggle="tab">盐灯</a></li>
+					<li class="col-md-4 col-sm-4 col-xs-4 t3"><a href="##" class="foo6">查看全部</a></li>
 				</ul>
 				<div class="tab-content foo5">
 					<div class="tab-pane active" id="tab1">
@@ -339,8 +339,9 @@ $(document).ready(function(){
     sr.reveal( '.foo1', { reset: false,scale:1,distance: '100px',delay: 200,duration : 1000,easing:'ease-out'} );
     sr.reveal( '.foo2', {reset: false,scale:1,distance: '100px',delay: 400,duration : 1000,easing:'ease-out'} );
     sr.reveal( '.foo3', {reset: false,scale:1,distance: '100px',delay: 600,duration : 1000,easing:'ease-out'} );
-    sr.reveal( '.foo4', { reset: false,origin  : 'left',distance: '150px',duration : 800,easing:'ease-in-out'} );
-    sr.reveal( '.foo5', {reset: false, origin  : 'right',distance: '150px',duration : 1000,easing:'ease-in-out'} );
+    sr.reveal( '.foo4', { reset: false,origin  : 'left',distance: '150px',duration : 1000,delay: 400,easing:'ease-in-out'} );
+    sr.reveal( '.foo5', {reset: false, origin  : 'right',distance: '150px',duration : 1000,delay: 400,easing:'ease-in-out'} );
+    sr.reveal( '.foo6', { reset: false,origin  : 'left',distance: '120px',duration : 800,easing:'ease-in-out'} );
 </script>
 </body>
 </html>	</div>

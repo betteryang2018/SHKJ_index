@@ -285,7 +285,7 @@ h3,.h3{
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #fff; 
     cursor: default; 
-    background-color: inherit; 
+    background:none; 
     border:0; 
     border-bottom-color:none; 
 }
@@ -404,25 +404,10 @@ h3,.h3{
 	color:#666;
 }
 
-/* .newsBox .arrow a{
-	display: inline-block;
-	width:26px;
-	height: 26px;
-	margin:20px 0;
-	margin-right:-3px;
-}
-
-.newsBox .arrow .lfArrow{
-	background:url(../images/p.jpg) no-repeat;
-}
-
-.newsBox .arrow .rtArrow{
-	background:url(../images/n.jpg) no-repeat;
-} */
-
 .newsBox .nav-tabs{
 	position: fixed;
 	bottom:30px;
+	border:none;
 }
 
 .newsBox .nav>li>a {
