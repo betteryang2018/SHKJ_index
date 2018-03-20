@@ -127,11 +127,11 @@
 	<div class="main">
 		<div class="row products">
 			<div class="container">
-				<h1>推荐产品</h1>
+				<h1 class="foo1">推荐产品</h1>
 				<ul>
-					<li class="col-md-4 col-sm-4"><a href="##"><img src="images/index_13.jpg"></a></li>
-					<li class="col-md-4 col-sm-4"><a href="##"><img src="images/index_15.jpg"></a></li>
-					<li class="col-md-4 col-sm-4"><a href="##"><img src="images/index_17.jpg"></a></li>
+					<li class="col-md-4 col-sm-4 foo1"><a href="##"><img src="images/index_13.jpg"></a></li>
+					<li class="col-md-4 col-sm-4 foo2"><a href="##"><img src="images/index_15.jpg"></a></li>
+					<li class="col-md-4 col-sm-4 foo3"><a href="##"><img src="images/index_17.jpg"></a></li>
 				</ul>
 			</div>
 		</div>
@@ -139,15 +139,15 @@
 			<div class="topTitWrap">
 				<div class="topTit container">
 					<div class="row">
-						<div class="col-md-4 col-sm-4 col-xs-4 t1"><a href="##">香薰加湿机</a></div>
-						<div class="col-md-4 col-sm-4 col-xs-4 t2"><a href="##">盐灯</a></div>
-						<div class="col-md-4 col-sm-4 col-xs-4 t3"><a href="##">查看全部</a></div>
+						<div class="col-md-4 col-sm-4 col-xs-4 t1"><a class="foo4" href="##">香薰加湿机</a></div>
+						<div class="col-md-4 col-sm-4 col-xs-4 t2"><a class="foo4" href="##">盐灯</a></div>
+						<div class="col-md-4 col-sm-4 col-xs-4 t3"><a class="foo4" href="##">查看全部</a></div>
 				    </div>
 			    </div>
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="aboutUs col-md-7 col-sm-8">
+					<div class="aboutUs col-md-7 col-sm-8 foo5">
 						<h1>关于我们</h1>
 						<img src="images/index_09.png">
 						<p>深圳市盛鸿科技有限公司座落于深圳市西北部宝安石岩，是一家集研发生产于一体的家居家电制造商。公司产品以香薰机为主导，本着“忠于艺术、服务生活”的理念，努力将小家电以创意实用的特点呈现在消费者眼中，产品远销欧洲、美洲、东亚等十几个国家。时尚及实用是贯穿整个公司产品的主线，工匠精神是融入整个公司品质的理念，我们希望制造出的产品更好的融入于到千万消费者的工作与生活中。</p>
@@ -180,7 +180,7 @@
 		<div class="newsBox">
 			<div class="container">
 			    <div class="row">
-				<div class="col-md-5 col-sm-5 question">
+				<div class="col-md-5 col-sm-5 question foo5">
 					<a href="##">
 						<img class="pic1" src="images/new_list_07.jpg">
 						<img class="pic2" src="images/index_38.jpg">
@@ -192,7 +192,7 @@
 						<a class="rtArrow" href="javascript:;"></a>
 					</div>
 				</div>
-				<div class="col-md-7 col-sm-7 news">
+				<div class="col-md-7 col-sm-7 news foo4">
 					<ul>
 						<li>
 							<div class="row">
@@ -276,13 +276,22 @@
 
 <script src="js/jquery-3.2.1.min.js"></script>	
 <script src="js/bootstrap.min.js"></script>
-<script>
+<script src="js/scrollreveal.min.js"></script>
 $(document).ready(function(){
 	// 绑定回到顶部按钮的点击事件
 	$('#returnTop').click(function(){
 		$('body').animate({scrollTop:0});
 	})
 });
+</script>
+
+<script>
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal( '.foo1', { reset: false,scale:1,distance: '100px',delay: 200,duration : 1000,easing:'ease-out'} );
+    sr.reveal( '.foo2', {reset: false,scale:1,distance: '100px',delay: 400,duration : 1000,easing:'ease-out'} );
+    sr.reveal( '.foo3', {reset: false,scale:1,distance: '100px',delay: 600,duration : 1000,easing:'ease-out'} );
+    sr.reveal( '.foo4', { reset: false,origin  : 'left',distance: '150px',duration : 800,easing:'ease-in-out'} );
+    sr.reveal( '.foo5', {reset: false, origin  : 'right',distance: '150px',duration : 1000,easing:'ease-in-out'} );
 </script>
 </body>
 </html>	</div>

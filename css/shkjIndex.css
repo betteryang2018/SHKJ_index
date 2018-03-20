@@ -262,6 +262,7 @@ h3,.h3{
 
 .main .topTit .col-md-4 a{
 	color:#fff;
+	display: block;
 }
 
 .main .topTit .t1{
