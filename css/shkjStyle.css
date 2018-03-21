@@ -5,19 +5,25 @@ html{
 
 @media(max-width: 767px){
 	html{
-		font-size: 8px;
+		font-size: 9px;
 	}
 }
 
 @media(min-width: 767px) and(max-width: 992px){
 	html{
-		font-size: 9px;
+		font-size: 8px;
 	}
 }
 
-@media(min-width: 993px){
+@media(min-width: 992px){
 	html{
 		font-size: 10px;
+	}
+}
+
+@media(min-width: 1200px){
+	html{
+		font-size: 11px;
 	}
 }
 
@@ -532,10 +538,160 @@ h3,.h3{
 }
 }
 
-
-
 /* ------------------About 公司介绍页样式-----------------*/
 
 .navImgBar img{
 	width:100%;
 }
+
+.mainAbout .nav-tabs1{
+	padding-left:38%;
+	background: #e7e7e7;
+	margin:0 -15px;
+}
+
+.mainAbout .tabbable{
+	padding-bottom: 3%;
+}
+
+.mainAbout .nav-tabs1>li{
+    padding:2% 3%;
+	text-align: center;
+}
+
+.mainAbout .nav-tabs1>li:hover{
+    padding:2% 3%;
+	text-align: center;
+	background: #fff;
+	color:#eda82f;;
+}
+
+.mainAbout .nav-tabs1>li>a {
+    margin-right: 2px;
+    line-height: 100%;
+    width:;
+    border: none;
+    border-radius:0;
+    font-size: 1.6rem;
+    padding:0;
+}
+
+.mainAbout .nav-tabs1>li.active,.mainAbout .nav-tabs1>li.active:focus,.mainAbout .nav-tabs1>li.active:hover {
+	background: #fff;
+}
+
+.mainAbout .nav-tabs1>li.active>a,.mainAbout .nav-tabs1>li.active>a:focus,.mainAbout .nav-tabs1>li.active>a:hover,.mainAbout .nav-tabs>li:hover>a {
+	background: none;
+	color:#eda82f;
+	height: 100%;
+}
+
+.mainAbout .ab6img img{
+	width:100%;
+	padding:5% 0;
+}
+
+.mainAbout .texCon{
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 2.2rem;
+	padding:3% 0;
+}
+
+.mainAbout .hjzz {
+    margin: 5% 0 5%;
+    background: #ededed;
+}
+
+
+.mainAbout .hjzz .tab-content{
+	float:left;
+	width:50%;
+	padding:0;
+}
+
+.mainAbout .tab-content #tab2,
+.mainAbout .tab-content #tab3{
+	text-align: center;
+}
+
+.mainAbout .hjzz .nav-tabs2{
+	float:right;
+	width:50%;
+	border:0;
+	padding:0;
+}
+
+.mainAbout .hjzz .tab-content img{
+	width:100%;
+}
+
+
+.mainAbout .hjzz .nav-tabs2 li{
+	float:left;
+	width:50%;
+	background: #ededed;
+	padding:0;
+}
+
+.mainAbout .hjzz .nav-tabs2 li:hover{
+	background: #6ad2fc;
+}
+
+.mainAbout .hjzz .nav-tabs2 li a{
+	color:#555;
+	font-size: 1.6rem;
+    padding: 32.65% 0;
+    text-align: center;
+}
+
+.mainAbout .nav-tabs2>li.active>a:hover,.mainAbout .hjzz .nav-tabs2 li:hover a {
+	color:#fff;
+	font-size: 1.6rem;
+}
+
+@media(max-width: 767px){
+.mainAbout .nav-tabs1{
+	padding-left:18%;
+}
+.mainAbout .hjzz .tab-content,
+.mainAbout .hjzz .nav-tabs2
+{
+	width:100%;
+}
+
+}
+
+@media(min-width: 768px){
+.mainAbout .nav-tabs1{
+	padding-left:35%;
+}
+.mainAbout .hjzz .nav-tabs2 li a{
+    padding: 26.8% 0;
+}
+}
+
+@media(min-width: 992px){
+.mainAbout .nav-tabs1{
+	padding-left:38%;
+}
+
+.mainAbout .hjzz .nav-tabs2 li a{
+    padding: 30.5% 0;
+}
+}
+
+@media(min-width: 1200px){
+.mainAbout .hjzz .nav-tabs2 li a{
+    padding: 32.7% 0;
+}
+}
+
+@media(min-width: 1400px){
+.mainAbout .hjzz .nav-tabs2 li a{
+    padding: 32.15% 0;
+}
+}
+
+
+
