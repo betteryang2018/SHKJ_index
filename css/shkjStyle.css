@@ -654,11 +654,17 @@ h3,.h3{
 .mainAbout .nav-tabs1{
 	padding-left:18%;
 }
+
 .mainAbout .hjzz .tab-content,
 .mainAbout .hjzz .nav-tabs2
 {
 	width:100%;
 }
+
+.mainAbout .tabImg img{
+	width:100%;
+}
+
 
 }
 
