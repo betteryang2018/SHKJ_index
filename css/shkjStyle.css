@@ -586,6 +586,17 @@ h3,.h3{
 	height: 100%;
 }
 
+.mainAbout .tabImg ul li{
+	width:33.333333%;
+	float:left;
+}
+
+.mainAbout .tabImg ul li img{
+	width:100%;
+	padding:3%;
+}
+
+
 .mainAbout .ab6img img{
 	width:100%;
 	padding:5% 0;
@@ -661,10 +672,10 @@ h3,.h3{
 	width:100%;
 }
 
-.mainAbout .tabImg img{
+.mainAbout .tabImg ul li{
 	width:100%;
+	float:left;
 }
-
 
 }
 
